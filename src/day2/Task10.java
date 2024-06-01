@@ -2,24 +2,22 @@ package day2;
 
 import java.util.Scanner;
 
-public class Task10
-{
-    public static void main(String[] args)
-    {
+public class Task10 {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Birinci cümleyi giriniz: ");
         String cumle1 = scanner.nextLine();
-        int cumle1Uzunlugu = cumle1.length();
 
-        System.out.print("İkinci cümleyi giriniz: " );
+        System.out.print("İkinci cümleyi giriniz: ");
         String cumle2 = scanner.nextLine();
-        int cumle2Uzunlugu = cumle2.length();
 
-        if (cumle1Uzunlugu > cumle2Uzunlugu) {
+        if (cumle1.length() > cumle2.length()) {
             System.out.println("Uzun olan cümle: " + cumle1);
-        } else {
+        } else if (cumle2.length() > cumle1.length()) {
             System.out.println("Uzun olan cümle: " + cumle2);
+        } else {
+            System.out.println("Her iki cümle de eşit uzunlukta");
         }
 
         scanner.close();

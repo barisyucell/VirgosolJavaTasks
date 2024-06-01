@@ -2,10 +2,8 @@ package day2;
 
 import java.util.Scanner;
 
-public class Task18
-{
-    public static void main(String[] args)
-    {
+public class Task18 {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Bir gezegen adı giriniz: ");
@@ -13,26 +11,14 @@ public class Task18
 
         switch (gezegenAdi) {
             case "Merkür":
-                System.out.println("İç gezegen");
-                break;
             case "Venüs":
-                System.out.println("İç gezegen");
-                break;
             case "Dünya":
-                System.out.println("İç gezegen");
-                break;
             case "Mars":
                 System.out.println("İç gezegen");
                 break;
             case "Jüpiter":
-                System.out.println("Dış gezegen");
-                break;
             case "Satürn":
-                System.out.println("Dış gezegen");
-                break;
             case "Uranüs":
-                System.out.println("Dış gezegen");
-                break;
             case "Neptün":
                 System.out.println("Dış gezegen");
                 break;

@@ -2,17 +2,15 @@ package day2;
 
 import java.util.Scanner;
 
-public class Task15
-{
-    public static void main(String[] args)
-    {
+public class Task15 {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Bir yıl giriniz: ");
         int yil = scanner.nextInt();
 
         if (yil > 0) {
-            if ((yil %4 == 0 && yil %100 != 0) || (yil %400 == 0)) {
+            if ((yil % 4 == 0 && yil % 100 != 0) || (yil % 400 == 0)) {
                 System.out.println(yil + " bir artık yıldır.");
             } else {
                 System.out.println(yil + " bir artık yıl değildir.");

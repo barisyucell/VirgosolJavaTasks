@@ -2,10 +2,8 @@ package day2;
 
 import java.util.Scanner;
 
-public class Task12
-{
-    public static void main(String[] args)
-    {
+public class Task12 {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Bir ay numarası giriniz (1-12): ");
@@ -14,11 +12,7 @@ public class Task12
         if (ayNumarasi >= 1 && ayNumarasi <= 12) {
             switch (ayNumarasi) {
                 case 6:
-                    System.out.println("Yaz mevsimindesiniz.");
-                    break;
                 case 7:
-                    System.out.println("Yaz mevsimindesiniz.");
-                    break;
                 case 8:
                     System.out.println("Yaz mevsimindesiniz.");
                     break;
