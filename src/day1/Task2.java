@@ -1,9 +1,7 @@
 package day1;
 
-public class Task2
-{
-    public static void main(String[] args)
-    {
+public class Task2 {
+    public static void main(String[] args) {
         int yas = 23;
 
         String isim = "Ali";
@@ -15,6 +13,7 @@ public class Task2
         System.out.print(isim);
     }
 }
+
 
 /*
 = Açıklama =

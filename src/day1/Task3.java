@@ -1,9 +1,7 @@
 package day1;
 
-public class Task3
-{
-    public static void main(String[] args)
-    {
+public class Task3 {
+    public static void main(String[] args) {
         int yas = 23;
 
         double boy = 1.86;
@@ -14,6 +12,7 @@ public class Task3
         System.out.println("Benim adım " + isim + ", yaşım " + yas + ", boyum " + boy + " metre ve cebimde " + para + " TL para var.");
     }
 }
+
 
 /*
 = Açıklama =

@@ -1,9 +1,7 @@
 package day1;
 
-public class Task10
-{
-    public static void main(String[] args)
-    {
+public class Task10 {
+    public static void main(String[] args) {
         boolean havaGuzel = false;
         boolean yeterliPara = true;
 
@@ -12,6 +10,7 @@ public class Task10
         System.out.println("Yemeğe çıkabilme şartı sağlanmış mı => " + yemegeCikabilmeSarti);
     }
 }
+
 
 /*
 = Açıklama =

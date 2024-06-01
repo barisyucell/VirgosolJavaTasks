@@ -1,9 +1,7 @@
 package day1;
 
-public class Task6
-{
-    public static void main(String[] args)
-    {
+public class Task6 {
+    public static void main(String[] args) {
         int year = 2022;
         int price = 1200000;
 
@@ -14,6 +12,7 @@ public class Task6
         System.out.println(year + " " + brand + " " + model + " " + color + " " + price + " TRY");
     }
 }
+
 
 /*
 = Açıklama =

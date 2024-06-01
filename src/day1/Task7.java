@@ -1,9 +1,7 @@
 package day1;
 
-public class Task7
-{
-    public static void main(String[] args)
-    {
+public class Task7 {
+    public static void main(String[] args) {
         int sayi = 6;
 
         sayi += 50;
@@ -11,6 +9,7 @@ public class Task7
         System.out.println("Sayı=56 oldu mu? => " + (sayi == 56));
     }
 }
+
 
 /*
 = Açıklama =
