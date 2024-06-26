@@ -9,7 +9,7 @@ public class Task21 {
         ArrayList<String> cities = new ArrayList<>();
         cities.addAll(Arrays.asList("İstanbul", "İzmir", "Ankara", "Antalya", "Çanakkale", "istanbul", "izmir"));
 
-        cities.removeIf(p -> p.startsWith("İ") || p.startsWith("i"));
+        cities.removeIf(p -> p.toUpperCase().startsWith("İ"));
         System.out.println(cities);
     }
 
@@ -20,6 +20,6 @@ public class Task21 {
 ArrayList<String> cities = new ArrayList<>();
 cities.addAll(Arrays.asList("İstanbul", "İzmir", "Ankara", "Antalya", "Çanakkale"));
 
-olan bir "cities" listesinden "İ" harfi ile başlayan illeri çıkarmak (silmek) istiyorum.
-Bu listenin dinamik olduğunu ve hangi ilin hangi indekste olduğunu bilmediğimizi kabul ederek çözelim.
+olan bir "cities" listesinden "İ" harfi ile başlayan illeri silin ve kalan listeyi ekrana yazdırın
+(NOT: Bu listenin dinamik olduğunu, hangi ilin hangi indekste olduğunu bilmediğimizi kabul edelim).
 */
